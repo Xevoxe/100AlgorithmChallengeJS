@@ -35,3 +35,9 @@ A non-empty array of non-empty equal-length strings.
 - **[output] array.string**
 
 The same matrix of characters, framed with a border of asterisks of width 1.
+
+** Algorithm Notes **
+
+- Append '*' character to the beginning of each array element and concatenate "*" to the end.
+- Add border to the beginning of the array.
+- Add border to the end of the array 
