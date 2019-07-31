@@ -41,3 +41,7 @@ The same matrix of characters, framed with a border of asterisks of width 1.
 - Append '*' character to the beginning of each array element and concatenate "*" to the end.
 - Add border to the beginning of the array.
 - Add border to the end of the array 
+
+** Refactored **
+- By refactoring the code I am able to gain better readability.
+- Both functions have a BIG-O complexity of O(n) 
