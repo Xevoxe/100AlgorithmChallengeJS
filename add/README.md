@@ -31,3 +31,12 @@ Guaranteed constraints:
 **[output] integer**
 
 The sum of the two inputs.
+
+**Notes**
+
+There are several loops that can be used with this problem.  Things to consider when determining which type of loop to use.
+
+- Traditional for loop executes faster however at the expense of readibility.
+- forEach loop helps to protect the function scope through use of closures from potential sideeffects.
+- map Improves readibility because at first glance you are aware that this function will be transforming the original function and returning a entirelly new array.
+- reduce Much like the map function a user knows that the function will be reducing the items into the array into a single item.
