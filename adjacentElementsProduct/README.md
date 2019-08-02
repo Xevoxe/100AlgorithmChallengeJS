@@ -29,3 +29,17 @@ An array of integers containing at least two elements.
 - **[output] integer**
 
 The largest product of adjacent elements.
+
+** Notes **
+
+Used reduce to determine the result
+
+Reduce function starts at 1 automatically.
+
+
+Added difficulty by returning an array of the two numbers instead of the result.
+Loop Start at 1 until < index.Length
+index[n] multiply by index[n-1]
+If Result is > than current stored value then result[0] = n && result[1] = index[n-1]
+Else Continue
+
