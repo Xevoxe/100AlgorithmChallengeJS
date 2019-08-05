@@ -29,8 +29,8 @@ function adjacentElementsProductArray(inputArray: number[]): number[] {
         let next = inputArray[n] * inputArray[n-1];
 
         if(next > max){
-            result[0] = inputArray[n];
-            result[1] = inputArray[n-1];
+            result[1] = inputArray[n];
+            result[0] = inputArray[n-1];
         }
     }
 
@@ -39,3 +39,5 @@ function adjacentElementsProductArray(inputArray: number[]): number[] {
 }
 
 console.log(adjacentElementsProduct([3, 6, -2, -5, 7, 3]));
+
+console.log(adjacentElementsProductArray([3, 6, -2, -5, 7, 3]));

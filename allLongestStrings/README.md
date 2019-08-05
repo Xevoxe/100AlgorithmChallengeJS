@@ -27,3 +27,10 @@ A non-empty array.
 - **[output] array.string**
 
 Array of the longest strings, stored in the same order as in the inputArray.
+
+** Notes **
+
+The solution for this algorithm trades readibility for time complexity.  Since the current solution only has to iterate through the list once it has a O(n).
+
+The more readable solutions that I have run across for solving this algorithm require two loops.  One to find the length of the longest word and then another loop to filter the longest words out.  Thus making it have a time complexity of O(n^2)
+
